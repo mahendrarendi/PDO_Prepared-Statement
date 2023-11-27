@@ -3,7 +3,7 @@
 session_start();
 session_destroy();
 
-// Redirect ke halaman login_view.php setelah logout
-header('Location: login_view.php');
+// Redirect ke halaman login.php setelah logout
+header('Location: login.php');
 exit();
 ?>

@@ -126,8 +126,8 @@ if (isset($_POST['update'])) {
                             echo "<td>";
 
                             // Tambahkan link untuk update dan delete dengan ikon
-                            echo "<a href='update_view.php?userIdToUpdate={$account['id']}' class='btn btn-warning btn-sm mr-2'><i class='fa fa-edit'></i> Update</a>";
-                            echo "<a href='delete_view.php?userIdToDelete={$account['id']}' class='btn btn-danger btn-sm'><i class='fa fa-trash'></i> Delete</a>";
+                            echo "<a href='update.php?userIdToUpdate={$account['id']}' class='btn btn-warning btn-sm mr-2'><i class='fa fa-edit'></i> Update</a>";
+                            echo "<a href='delete.php?userIdToDelete={$account['id']}' class='btn btn-danger btn-sm'><i class='fa fa-trash'></i> Delete</a>";
                             
                             echo "</td>";
                             echo "</tr>";
